@@ -1,5 +1,7 @@
 ## Eventos - Coders Ceará
 
+### Deploy: https://codersceara.github.io/Eventos/
+
 Este projeto consiste em uma página de eventos para o site da Coders Ceará, que exibe informações atualizadas sobre palestras, workshops e outros encontros de interesse para programadores, desenvolvedores, DevOps e entusiastas de tecnologia na região do Ceará.
 
 ### Tecnologias Utilizadas
