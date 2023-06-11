@@ -67,15 +67,15 @@ section .events {
     background: #000000e6;
     float: right;
     box-sizing: border-box;
-    overflow: auto; /* Adicione esta propriedade */
+    overflow: auto; 
 }
 
 section .events ul {
     margin: 0;
     padding: 40px;
     box-sizing: border-box;
-    height: calc(100% - 80px); /* Ajuste a altura para deixar espaço para o footer */
-    overflow-y: auto; /* Adicione esta propriedade para permitir rolagem vertical */
+    height: calc(100% - 80px); 
+    overflow-y: auto; 
 }
 
 section .events ul li {
@@ -83,7 +83,7 @@ section .events ul li {
     background: #fff;
     box-sizing: border-box;
     height: 200px;
-    margin-bottom: 15px; /* Altere a margem inferior */
+    margin-bottom: 15px; 
 }
 
 section .events ul li .time{
