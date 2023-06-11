@@ -60,29 +60,32 @@ section .leftBox .content a:hover{
     border-color: #fff;
 }
 
-section .events{
+section .events {
     position: relative;
     width: 50%;
     height: 100%;
     background: #000000e6;
     float: right;
     box-sizing: border-box;
+    overflow: auto; /* Adicione esta propriedade */
 }
-section .events ul{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+
+section .events ul {
     margin: 0;
     padding: 40px;
     box-sizing: border-box;
+    height: calc(100% - 80px); /* Ajuste a altura para deixar espaço para o footer */
+    overflow-y: auto; /* Adicione esta propriedade para permitir rolagem vertical */
 }
-section .events ul li{
+
+section .events ul li {
     list-style: none;
     background: #fff;
     box-sizing: border-box;
     height: 200px;
-    margin: 15px 0;
+    margin-bottom: 15px; /* Altere a margem inferior */
 }
+
 section .events ul li .time{
     position: relative;
     padding: 20px;
